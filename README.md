@@ -66,6 +66,7 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 - [Falco](https://falco.org/) is an open source runtime security tool that parses Linux system calls from the kernel at runtime, and asserts the stream against a powerful rules engine. It can be used for Kubernetes runtime security.
 - [CloudSploit](https://github.com/aquasecurity/cloudsploit) by Aqua is an open-source project designed to allow detection of security risks in cloud infrastructure accounts, including: Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), Oracle Cloud Infrastructure (OCI), and GitHub. These scripts are designed to return a series of potential misconfigurations and security risks.
 - [kube-hunter](https://github.com/aquasecurity/kube-hunter) is a tool that hunts for security weaknesses in Kubernetes clusters. The tool was developed to increase awareness and visibility for security issues in Kubernetes environments.
+- [kube-bench](https://github.com/aquasecurity/kube-bench) is an application that checks whether Kubernetes is deployed securely by running the checks documented in the CIS Kubernetes Benchmark.
 
 ## CI/CD
 - [Tekton](https://tekton.dev/) is a powerful and flexible open-source framework for creating CI/CD systems, allowing developers to build, test, and deploy across cloud providers and on-premise systems.
@@ -85,5 +86,5 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 - [ChaosKube](https://github.com/linki/chaoskube) is a tool that periodically kills random pods in your Kubernetes cluster to test resiliency.
 - [Kboom (WIP)](https://github.com/mhausenblas/kboom) is a tool that allows you to create short-term load for scale testing and long-term load for soak testing. Supported load out of the box for scale testing are pods and custom resources via CRDs for soak testing is planned. (this is WIP)
 - [kube-advisor](https://github.com/Azure/kube-advisor) is a diagnostic tool for Kubernetes clusters. At the moment, it returns pods that are missing resource and request limits.
-- [kube-bench](https://github.com/aquasecurity/kube-bench) is an application that checks whether Kubernetes is deployed securely by running the checks documented in the CIS Kubernetes Benchmark.
+
 
