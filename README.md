@@ -6,6 +6,7 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 - [RKE](https://rancher.com/products/rke/) is a CNCF-certified Kubernetes distribution that runs entirely within Docker containers. It works on bare-metal and virtualized servers. RKE solves the problem of installation complexity, a common issue in the Kubernetes community.
 - [K3s](https://k3s.io/) is a highly available, certified Kubernetes distribution designed for production workloads in unattended, resource-constrained, remote locations or inside IoT appliances.
 - [Metal³](https://metal3.io/) exists to provide components that allow you to do bare metal host management for Kubernetes.  works as a Kubernetes application, meaning it runs on Kubernetes and is managed through Kubernetes interfaces.
+- [kops](https://github.com/kubernetes/kops) helps you create, destroy, upgrade and maintain production-grade, highly available, Kubernetes clusters from the command line. AWS (Amazon Web Services) is currently officially supported, with GCE and OpenStack in beta support, and VMware vSphere in alpha, and other platforms planned.
 
 ## Kubernetes orchestration management
 - [Rancher](https://rancher.com/) is multi-cluster container management system, built to give team members a 360&deg; view on the cluster.
@@ -20,9 +21,10 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 ## Kubernetes tooling
 - [Kured](https://github.com/weaveworks/kured) is a Kubernetes daemonset that performs safe automatic node reboots when the need to do so is indicated by the package management system of the underlying OS.
 - [kubectl-who-can](https://github.com/aquasecurity/kubectl-who-can) is a tool that shows which subjects have RBAC permissions to VERB [TYPE | TYPE/NAME | NONRESOURCEURL] in Kubernetes.
+- [k9s](https://github.com/derailed/k9s) provides a terminal UI to interact with your Kubernetes clusters.
+- [Kubeman](https://github.com/walmartlabs/kubeman) is a tool that attempts to make it easier to find information from Kubernetes clusters, and to investigate issues related to Kubernetes and Istio.
 
-## Container registry 
-
+## Container registry
 - [Harbor](https://goharbor.io/) is an open source registry that secures artifacts with policies and role-based access control, ensures images are scanned and free from vulnerabilities, and signs images as trusted.
 
 ## Container registry tooling
@@ -61,12 +63,15 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 - [Grafana](https://grafana.com/) has become the world’s most popular technology used to compose observability dashboards with everything from Prometheus & Graphite metrics, to logs and application data to power plants and beehives.
 - [Fluentd](https://www.fluentd.org/) is an open source data collector for unified logging layer.
 - [OpenTracing](https://opentracing.io) is comprised of an API specification, frameworks and libraries that have implemented the specification, and documentation for the project. OpenTracing allows developers to add instrumentation to their application code using APIs that do not lock them into any one particular product or vendor.
+- [k8s-job-notify](https://github.com/sukeesh/k8s-job-notify) sends an alert to slack whenever there is a Kubernetes cronJob/Job failure/success.
+- [BotKube](https://www.botkube.io/) is a messaging bot for monitoring and debugging Kubernetes clusters. 
 
 ## Security
 - [Falco](https://falco.org/) is an open source runtime security tool that parses Linux system calls from the kernel at runtime, and asserts the stream against a powerful rules engine. It can be used for Kubernetes runtime security.
 - [CloudSploit](https://github.com/aquasecurity/cloudsploit) by Aqua is an open-source project designed to allow detection of security risks in cloud infrastructure accounts, including: Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), Oracle Cloud Infrastructure (OCI), and GitHub. These scripts are designed to return a series of potential misconfigurations and security risks.
 - [kube-hunter](https://github.com/aquasecurity/kube-hunter) is a tool that hunts for security weaknesses in Kubernetes clusters. The tool was developed to increase awareness and visibility for security issues in Kubernetes environments.
 - [kube-bench](https://github.com/aquasecurity/kube-bench) is an application that checks whether Kubernetes is deployed securely by running the checks documented in the CIS Kubernetes Benchmark.
+- [Popeye](https://github.com/derailed/popeye) is a utility that scans live Kubernetes cluster and reports potential issues with deployed resources and configurations. It sanitizes your cluster based on what's deployed and not what's sitting on disk. 
 
 ## CI/CD
 - [Tekton](https://tekton.dev/) is a powerful and flexible open-source framework for creating CI/CD systems, allowing developers to build, test, and deploy across cloud providers and on-premise systems.
@@ -74,6 +79,7 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 - [Buildpacks](https://buildpacks.io/) transforms your application source code into images that can run on any cloud. 
 - [Argo](https://argoproj.github.io/) provides open source Kubernetes native workflows, events, CI and CD
 - [Trivy](https://github.com/aquasecurity/trivy) is a simple and comprehensive vulnerability scanner for containers and other artifacts, suitable for CI.
+- [Spinnaker](https://github.com/spinnaker/spinnaker) is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence. 
 
 ## Events
 - [KEDA](https://keda.sh/) is a single-purpose and lightweight component that can be added into any Kubernetes cluster. KEDA works alongside standard Kubernetes components like the Horizontal Pod Autoscaler and can extend functionality without overwriting or duplication to provide event driven autoscaling
@@ -86,5 +92,11 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 - [ChaosKube](https://github.com/linki/chaoskube) is a tool that periodically kills random pods in your Kubernetes cluster to test resiliency.
 - [Kboom (WIP)](https://github.com/mhausenblas/kboom) is a tool that allows you to create short-term load for scale testing and long-term load for soak testing. Supported load out of the box for scale testing are pods and custom resources via CRDs for soak testing is planned. (this is WIP)
 - [kube-advisor](https://github.com/Azure/kube-advisor) is a diagnostic tool for Kubernetes clusters. At the moment, it returns pods that are missing resource and request limits.
+- [PowerfulSeal](https://github.com/powerfulseal/powerfulseal) injects failure into your Kubernetes clusters, so that you can detect problems as early as possible. It allows for writing scenarios describing complete chaos experiments.
+- [k6](https://github.com/loadimpact/k6) is a developer-centric, free and open-source load testing tool built for making performance testing a productive and enjoyable experience.
 
-
+# Local development
+- [Okteto](https://github.com/okteto/okteto) accelerates the development workflow of Kubernetes applications. You write your code locally and okteto detects the changes and instantly updates your Kubernetes applications.
+- [Minikube](https://kubernetes.io/docs/setup/learning-environment/minikube/) is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a Virtual Machine (VM) on your laptop for users looking to try out Kubernetes or develop with it day-to-day.
+- [Multipass](https://multipass.run/) is a lightweight VM manager for Linux, Windows and macOS.
+- [Microk8s](https://microk8s.io/) is an upstream Kubernetes deployment that runs entirely on your workstation or edge device. Being a snap it runs all Kubernetes services natively (i.e. no virtual machines) while packing the entire set of libraries and binaries needed. 
