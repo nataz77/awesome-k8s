@@ -37,8 +37,9 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 - [OpenEBS](https://openebs.io/) builds on Kubernetes to enable Stateful applications to easily access Dynamic Local PVs or Replicated PVs. By using the Container Attached Storage pattern users report lower costs, easier management, and more control for their teams.
 
 ## GitOps
-- [Flux](https://fluxcd.io/) is a tool that automates the deployment of containers to Kubernetes. It fills the automation void that exists between building and monitoring.
+- [Flux v1](https://fluxcd.io/) is a tool that automates the deployment of containers to Kubernetes. It fills the automation void that exists between building and monitoring.
 - [Helm Operator](https://docs.fluxcd.io/projects/helm-operator/en/stable/) is a Kubernetes operator, allowing one to declaratively manage Helm chart releases. Combined with Flux this can be utilized to automate releases in a GitOps manner, but the use of Flux is not strictly necessary
+- [Flux v2](https://toolkit.fluxcd.io/) Flux version 2 ("Flux v2") is built from the ground up to use Kubernetes' API extension system, and to integrate with Prometheus and other core components of the Kubernetes ecosystem.
 
 ## [Service Mesh](https://servicemesh.io/) 
 - [Istio](https://istio.io/) is an open platform for providing a uniform way to integrate microservices, manage traffic flow across microservices, enforce policies and aggregate telemetry data.
