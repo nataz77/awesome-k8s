@@ -47,6 +47,9 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 - [Kuma](https://kuma.io/) is a modern control plane for Microservices & Service Mesh for both K8s and VMs, with support for multiple meshes in one cluster. It provides out-of-the-box L4 + L7 policy architecture to enable zero trust security, observabilty, discovery, routing and traffic reliability in one click.
 - [Open Service Mesh (OSM)](https://openservicemesh.io/) is a lightweight, extensible, cloud native service mesh that allows users to uniformly manage, secure, and get out-of-the-box observability features for highly dynamic microservice environments. 
 
+## Database tooling
+- [pgbackupd](https://github.com/nataz77/pgbackupd) is Kubernetes cronjob that backups a target PostgreSQL instance, uploads a copy of the backup to a Storage Account in Azure or a AWS S3 bucket (or both) and deletes the local ones older than 14 days
+
 ## Pub-sub
 - [Nats](https://nats.io/) is a simple, secure and high performance open source messaging system for cloud native applications, IoT messaging, and microservices architectures.
 
