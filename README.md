@@ -47,6 +47,11 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 - [Kuma](https://kuma.io/) is a modern control plane for Microservices & Service Mesh for both K8s and VMs, with support for multiple meshes in one cluster. It provides out-of-the-box L4 + L7 policy architecture to enable zero trust security, observabilty, discovery, routing and traffic reliability in one click.
 - [Open Service Mesh (OSM)](https://openservicemesh.io/) is a lightweight, extensible, cloud native service mesh that allows users to uniformly manage, secure, and get out-of-the-box observability features for highly dynamic microservice environments. 
 
+## Database systems/HA
+- [PostgreSQL with Replication Manager](https://github.com/bitnami/bitnami-docker-postgresql-repmgr): [PostgreSQL](https://www.postgresql.org) is an open source object-relational database known for its reliability and data integrity. This solution includes [repmgr](https://repmgr.org), an open-source tool for managing replication and failover on PostgreSQL clusters.
+- [MongoDB Replicaset with/without arbiter](https://github.com/bitnami/charts/tree/master/bitnami/mongodb): [MongoDB](https://www.mongodb.com/) is a cross-platform document-oriented database. Classified as a NoSQL database, MongoDB eschews the traditional table-based relational database structure in favor of JSON-like documents with dynamic schemas, making the integration of data in certain types of applications easier and faster. This solution bootstraps a MongoDB replicaset cluster on k8s that can eventually include an arbiter node.
+- [MySQL with Vitess.io](https://vitess.io): Vitess combines many important MySQL features with the scalability of a NoSQL database. Its built-in sharding features let you grow your database without adding sharding logic to your application.
+
 ## Database tooling
 - [pgbackupd](https://github.com/nataz77/pgbackupd) is Kubernetes cronjob that backups a target PostgreSQL instance, uploads a copy of the backup to a Storage Account in Azure or a AWS S3 bucket (or both) and deletes the local ones older than 14 days
 
