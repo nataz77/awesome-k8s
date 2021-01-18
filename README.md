@@ -73,7 +73,8 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 - [Fluentd](https://www.fluentd.org/) is an open source data collector for unified logging layer.
 - [OpenTracing](https://opentracing.io) is comprised of an API specification, frameworks and libraries that have implemented the specification, and documentation for the project. OpenTracing allows developers to add instrumentation to their application code using APIs that do not lock them into any one particular product or vendor.
 - [k8s-job-notify](https://github.com/sukeesh/k8s-job-notify) sends an alert to slack whenever there is a Kubernetes cronJob/Job failure/success.
-- [BotKube](https://www.botkube.io/) is a messaging bot for monitoring and debugging Kubernetes clusters. 
+- [BotKube](https://www.botkube.io/) is a messaging bot for monitoring and debugging Kubernetes clusters.
+- [Fairwind Polaris](https://github.com/FairwindsOps/polaris) keeps your clusters sailing smoothly. It runs a variety of checks to ensure that Kubernetes pods and controllers are configured using best practices, helping you avoid problems in the future. 
 
 ## Security
 - [Falco](https://falco.org/) is an open source runtime security tool that parses Linux system calls from the kernel at runtime, and asserts the stream against a powerful rules engine. It can be used for Kubernetes runtime security.
