@@ -104,6 +104,7 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 - [kube-advisor](https://github.com/Azure/kube-advisor) is a diagnostic tool for Kubernetes clusters. At the moment, it returns pods that are missing resource and request limits.
 - [PowerfulSeal](https://github.com/powerfulseal/powerfulseal) injects failure into your Kubernetes clusters, so that you can detect problems as early as possible. It allows for writing scenarios describing complete chaos experiments.
 - [k6](https://github.com/loadimpact/k6) is a developer-centric, free and open-source load testing tool built for making performance testing a productive and enjoyable experience.
+- [toxiproxy](https://github.com/Shopify/toxiproxy) is a framework for simulating network conditions. It's made specifically to work in testing, CI and development environments, supporting deterministic tampering with connections, but with support for randomized chaos and customization
 
 # Local development
 - [Okteto](https://github.com/okteto/okteto) accelerates the development workflow of Kubernetes applications. You write your code locally and okteto detects the changes and instantly updates your Kubernetes applications.
