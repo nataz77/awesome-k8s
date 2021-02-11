@@ -46,6 +46,7 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 - [Linkerd](https://linkerd.io/) is a service mesh for Kubernetes. It makes running services easier and safer by giving you runtime debugging, observability, reliability, and security—all without requiring any changes to your code.
 - [Kuma](https://kuma.io/) is a modern control plane for Microservices & Service Mesh for both K8s and VMs, with support for multiple meshes in one cluster. It provides out-of-the-box L4 + L7 policy architecture to enable zero trust security, observabilty, discovery, routing and traffic reliability in one click.
 - [Open Service Mesh (OSM)](https://openservicemesh.io/) is a lightweight, extensible, cloud native service mesh that allows users to uniformly manage, secure, and get out-of-the-box observability features for highly dynamic microservice environments. 
+- [Meshery](https://github.com/layer5io/meshery) is the multi-service mesh management plane offering lifecycle, configuration, and performance management of service meshes and their workloads.
 
 ## Database HA systems
 - [PostgreSQL with Replication Manager](https://github.com/bitnami/bitnami-docker-postgresql-repmgr): [PostgreSQL](https://www.postgresql.org) is an open source object-relational database known for its reliability and data integrity. This solution includes [repmgr](https://repmgr.org), an open-source tool for managing replication and failover on PostgreSQL clusters.
