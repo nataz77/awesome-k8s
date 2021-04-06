@@ -58,6 +58,7 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 
 ## Pub-sub
 - [Nats](https://nats.io/) is a simple, secure and high performance open source messaging system for cloud native applications, IoT messaging, and microservices architectures.
+- [Apache Pulsar](https://pulsar.apache.org/en/) is a cloud-native, distributed messaging and streaming platform.
 
 ## Ingress controllers
 - [NGINX Ingress Controller](https://kubernetes.github.io/ingress-nginx) provides enterprise‑grade delivery services for Kubernetes applications
@@ -112,3 +113,10 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 - [Minikube](https://kubernetes.io/docs/setup/learning-environment/minikube/) is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a Virtual Machine (VM) on your laptop for users looking to try out Kubernetes or develop with it day-to-day.
 - [Multipass](https://multipass.run/) is a lightweight VM manager for Linux, Windows and macOS.
 - [Microk8s](https://microk8s.io/) is an upstream Kubernetes deployment that runs entirely on your workstation or edge device. Being a snap it runs all Kubernetes services natively (i.e. no virtual machines) while packing the entire set of libraries and binaries needed. 
+
+# ETL Tooling
+- [Singer](https://www.singer.io/)
+
+# Workflow management 
+- [Apache Airflow](https://airflow.apache.org/) is an open-source workflow management platform.
+- [Luigi](https://github.com/spotify/luigi) is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc.
