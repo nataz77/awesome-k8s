@@ -1,4 +1,4 @@
-# Awesome Microservices on K8S components
+# Awesome microservices architectures on K8S components
 
 Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF projects and components we use to build cloud-native microservices architectures.
 
