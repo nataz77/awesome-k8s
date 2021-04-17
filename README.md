@@ -23,6 +23,7 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 - [kubectl-who-can](https://github.com/aquasecurity/kubectl-who-can) is a tool that shows which subjects have RBAC permissions to VERB [TYPE | TYPE/NAME | NONRESOURCEURL] in Kubernetes.
 - [k9s](https://github.com/derailed/k9s) provides a terminal UI to interact with your Kubernetes clusters.
 - [Kubeman](https://github.com/walmartlabs/kubeman) is a tool that attempts to make it easier to find information from Kubernetes clusters, and to investigate issues related to Kubernetes and Istio.
+- [k8s-image-swapper](https://github.com/estahn/k8s-image-swapper) is a mutating webhook for Kubernetes, downloading images into your own registry and pointing the images to that new location.
 
 ## Container registry
 - [Harbor](https://goharbor.io/) is an open source registry that secures artifacts with policies and role-based access control, ensures images are scanned and free from vulnerabilities, and signs images as trusted.
