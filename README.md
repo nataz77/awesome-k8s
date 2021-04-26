@@ -24,6 +24,8 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 - [k9s](https://github.com/derailed/k9s) provides a terminal UI to interact with your Kubernetes clusters.
 - [Kubeman](https://github.com/walmartlabs/kubeman) is a tool that attempts to make it easier to find information from Kubernetes clusters, and to investigate issues related to Kubernetes and Istio.
 - [k8s-image-swapper](https://github.com/estahn/k8s-image-swapper) is a mutating webhook for Kubernetes, downloading images into your own registry and pointing the images to that new location.
+- [draino](https://github.com/planetlabs/draino) automatically drains Kubernetes nodes based on labels and node conditions.
+- [node-problem-detector](https://github.com/kubernetes/node-problem-detector) aims to make various node problems visible to the upstream layers in the cluster management stack
 
 ## Container registry
 - [Harbor](https://goharbor.io/) is an open source registry that secures artifacts with policies and role-based access control, ensures images are scanned and free from vulnerabilities, and signs images as trusted.
