@@ -7,6 +7,7 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 - [K3s](https://k3s.io/) is a highly available, certified Kubernetes distribution designed for production workloads in unattended, resource-constrained, remote locations or inside IoT appliances.
 - [Metal³](https://metal3.io/) exists to provide components that allow you to do bare metal host management for Kubernetes.  works as a Kubernetes application, meaning it runs on Kubernetes and is managed through Kubernetes interfaces.
 - [kops](https://github.com/kubernetes/kops) helps you create, destroy, upgrade and maintain production-grade, highly available, Kubernetes clusters from the command line. AWS (Amazon Web Services) is currently officially supported, with GCE and OpenStack in beta support, and VMware vSphere in alpha, and other platforms planned.
+- [vcluster](https://github.com/loft-sh/vcluster) - Create fully functional virtual Kubernetes clusters; each vcluster runs inside a namespace of the underlying k8s cluster.
 
 ## Kubernetes orchestration management
 - [Rancher](https://rancher.com/) is multi-cluster container management system, built to give team members a 360&deg; view on the cluster.
@@ -118,7 +119,7 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 - [Microk8s](https://microk8s.io/) is an upstream Kubernetes deployment that runs entirely on your workstation or edge device. Being a snap it runs all Kubernetes services natively (i.e. no virtual machines) while packing the entire set of libraries and binaries needed. 
 
 # ETL Tooling
-- [Singer](https://www.singer.io/)
+- [Singer](https://www.singer.io/) Simple, Composable Open Source ETL
 
 # Workflow management 
 - [Apache Airflow](https://airflow.apache.org/) is an open-source workflow management platform.
