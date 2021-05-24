@@ -28,6 +28,7 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 - [draino](https://github.com/planetlabs/draino) automatically drains Kubernetes nodes based on labels and node conditions.
 - [node-problem-detector](https://github.com/kubernetes/node-problem-detector) aims to make various node problems visible to the upstream layers in the cluster management stack
 - [kubectl-fields](https://github.com/rewanthtammana/kubectl-fields) is a cli tool to parse <code> kubectl explain --recursive </code> output to match given field and print its parental hierarchy in one-liner format.
+- [Arkade](https://github.com/alexellis/arkade) provides a portable marketplace for downloading your favourite devops CLIs and installing helm charts, with a single command.
 
 ## Container registry
 - [Harbor](https://goharbor.io/) is an open source registry that secures artifacts with policies and role-based access control, ensures images are scanned and free from vulnerabilities, and signs images as trusted.
