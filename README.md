@@ -32,6 +32,7 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 
 ## Container registry
 - [Harbor](https://goharbor.io/) is an open source registry that secures artifacts with policies and role-based access control, ensures images are scanned and free from vulnerabilities, and signs images as trusted.
+- [k8scr](https://github.com/hasheddan/k8scr) In-memory k8s container registry
 
 ## Container registry tooling
 - [Sinker](https://github.com/plexsystems/sinker) is an open source tool that syncs container images from one registry to another. This is useful in cases when you rely on images that exist in a public container registry, but need to pull from a private registry.
