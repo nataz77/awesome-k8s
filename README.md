@@ -85,6 +85,7 @@ Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF proj
 - [BotKube](https://www.botkube.io/) is a messaging bot for monitoring and debugging Kubernetes clusters.
 - [Fairwind Polaris](https://github.com/FairwindsOps/polaris) keeps your clusters sailing smoothly. It runs a variety of checks to ensure that Kubernetes pods and controllers are configured using best practices, helping you avoid problems in the future. 
 - [OpenSLO](https://github.com/OpenSLO/OpenSLO) OpenSLO specification for k8s
+- [SigNoz](https://github.com/SigNoz/signoz) helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc. 
 
 ## Security
 - [Falco](https://falco.org/) is an open source runtime security tool that parses Linux system calls from the kernel at runtime, and asserts the stream against a powerful rules engine. It can be used for Kubernetes runtime security.
