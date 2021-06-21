@@ -1,6 +1,8 @@
-# Awesome microservices architectures on K8S components
+# Awesome k8s microservices
 
-Here's a list of various [CNCF](https://www.cncf.io/projects/) and non-CNCF projects and components we use to build cloud-native microservices architectures.
+Here's a curated list of various amazingly awesome [CNCF](https://www.cncf.io/projects/) and non-CNCF projects, components and tools we use to build cloud-native microservices architectures.
+
+Pull requests with additional tools and projects are more than welcome!
 
 ## Kubernetes distributions
 - [RKE](https://rancher.com/products/rke/) is a CNCF-certified Kubernetes distribution that runs entirely within Docker containers. It works on bare-metal and virtualized servers. RKE solves the problem of installation complexity, a common issue in the Kubernetes community.
