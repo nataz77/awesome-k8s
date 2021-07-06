@@ -32,6 +32,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [node-problem-detector](https://github.com/kubernetes/node-problem-detector) aims to make various node problems visible to the upstream layers in the cluster management stack
 - [kubectl-fields](https://github.com/rewanthtammana/kubectl-fields) is a cli tool to parse <code> kubectl explain --recursive </code> output to match given field and print its parental hierarchy in one-liner format.
 - [Arkade](https://github.com/alexellis/arkade) provides a portable marketplace for downloading your favourite devops CLIs and installing helm charts, with a single command.
+- [Another Scheduler](https://github.com/dignajar/another-scheduler) is a Kubernetes controller that automatically starts, stops, or restarts pods from a deployment at a specified time using a cron syntax.
 
 ## Container registry
 - [Harbor](https://goharbor.io/) is an open source registry that secures artifacts with policies and role-based access control, ensures images are scanned and free from vulnerabilities, and signs images as trusted.
