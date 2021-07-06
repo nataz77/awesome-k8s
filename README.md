@@ -10,6 +10,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [Metal³](https://metal3.io/) exists to provide components that allow you to do bare metal host management for Kubernetes.  works as a Kubernetes application, meaning it runs on Kubernetes and is managed through Kubernetes interfaces.
 - [kops](https://github.com/kubernetes/kops) helps you create, destroy, upgrade and maintain production-grade, highly available, Kubernetes clusters from the command line. AWS (Amazon Web Services) is currently officially supported, with GCE and OpenStack in beta support, and VMware vSphere in alpha, and other platforms planned.
 - [vcluster](https://github.com/loft-sh/vcluster) - Create fully functional virtual Kubernetes clusters; each vcluster runs inside a namespace of the underlying k8s cluster.
+- [k8e](https://github.com/xiaods/k8e) - The k8e 🚀 (said 'kuber easy') project builds on upstream project K3s as codebase, remove Edge/IoT features and extend enterprise features with best practices.
 
 ## Kubernetes orchestration management
 - [Rancher](https://rancher.com/) is multi-cluster container management system, built to give team members a 360&deg; view on the cluster.
