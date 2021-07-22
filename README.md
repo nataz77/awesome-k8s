@@ -126,6 +126,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [Minikube](https://kubernetes.io/docs/setup/learning-environment/minikube/) is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a Virtual Machine (VM) on your laptop for users looking to try out Kubernetes or develop with it day-to-day.
 - [Multipass](https://multipass.run/) is a lightweight VM manager for Linux, Windows and macOS.
 - [Microk8s](https://microk8s.io/) is an upstream Kubernetes deployment that runs entirely on your workstation or edge device. Being a snap it runs all Kubernetes services natively (i.e. no virtual machines) while packing the entire set of libraries and binaries needed. 
+- (Windows only) [k8s Windows Dev Tools](https://github.com/kubernetes-sigs/sig-windows-dev-tools): a batteries included local development environment for Kubernetes on Windows. 
 
 # ETL Tooling
 - [Singer](https://www.singer.io/) Simple, Composable Open Source ETL
