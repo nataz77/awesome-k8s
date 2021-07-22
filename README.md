@@ -40,12 +40,17 @@ Pull requests with additional tools and projects are more than welcome!
 
 ## Container registry tooling
 - [Sinker](https://github.com/plexsystems/sinker) is an open source tool that syncs container images from one registry to another. This is useful in cases when you rely on images that exist in a public container registry, but need to pull from a private registry.
+- **(GCR Only)** [container-image-promoter](https://github.com/kubernetes-sigs/k8s-container-image-promoter) is a tool to promote Docker images from one registry to another, based on a declarative YAML manifest 
 
 ## Storage management and orchestration
 - [Rook](https://rook.io/) is a cloud-native storage orchestrator platform to enable highly available, durable storage in your Kubernetes cluster.
 - [Ceph CSI](https://github.com/ceph/ceph-csi) is an interface between CSI enabled Container Orchestrator (CO) and Ceph cluster. It allows dynamically provisioning Ceph volumes and attaching them to workloads.
 - [Longhorn](https://rancher.com/products/longhorn/) is an official CNCF project that delivers a powerful cloud-native distributed storage platform for Kubernetes that can run anywhere.
 - [OpenEBS](https://openebs.io/) builds on Kubernetes to enable Stateful applications to easily access Dynamic Local PVs or Replicated PVs. By using the Container Attached Storage pattern users report lower costs, easier management, and more control for their teams.
+
+## Storage tooling, backup & restore
+- [pvmigrate](https://github.com/replicatedhq/pvmigrate) allows migrating PVCs between two StorageClasses by creating new PVs, copying over the data, and then changing PVCs to refer to the new PVs.
+- [Velero](https://github.com/vmware-tanzu/velero) gives you tools to back up and restore your Kubernetes cluster resources and persistent volumes. You can run Velero with a public cloud platform or on-premises
 
 ## GitOps
 - [Flux v1](https://fluxcd.io/) is a tool that automates the deployment of containers to Kubernetes. It fills the automation void that exists between building and monitoring.
