@@ -34,6 +34,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [Arkade](https://github.com/alexellis/arkade) provides a portable marketplace for downloading your favourite devops CLIs and installing helm charts, with a single command.
 - [Another Scheduler](https://github.com/dignajar/another-scheduler) is a Kubernetes controller that automatically starts, stops, or restarts pods from a deployment at a specified time using a cron syntax.
 - [K8sPurger](https://github.com/yogeshkk/K8sPurger) hunts unused resources In kubernetes.
+- [k8snetlook](https://github.com/sarun87/k8snetlook) simple tool to help debug connetivity issues within a Pod or from a specific host in a live kubernetes cluster easily with a single command.
 
 ## Container registry
 - [Harbor](https://goharbor.io/) is an open source registry that secures artifacts with policies and role-based access control, ensures images are scanned and free from vulnerabilities, and signs images as trusted.
