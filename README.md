@@ -111,7 +111,8 @@ Pull requests with additional tools and projects are more than welcome!
 - [Buildpacks](https://buildpacks.io/) transforms your application source code into images that can run on any cloud. 
 - [Argo](https://argoproj.github.io/) provides open source Kubernetes native workflows, events, CI and CD
 - [Trivy](https://github.com/aquasecurity/trivy) is a simple and comprehensive vulnerability scanner for containers and other artifacts, suitable for CI.
-- [Spinnaker](https://github.com/spinnaker/spinnaker) is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence. 
+- [Spinnaker](https://github.com/spinnaker/spinnaker) is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.
+- [Terrascan](https://github.com/accurics/terrascan) detects compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.  
 
 ## Events
 - [KEDA](https://keda.sh/) is a single-purpose and lightweight component that can be added into any Kubernetes cluster. KEDA works alongside standard Kubernetes components like the Horizontal Pod Autoscaler and can extend functionality without overwriting or duplication to provide event driven autoscaling
