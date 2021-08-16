@@ -37,6 +37,8 @@ Pull requests with additional tools and projects are more than welcome!
 - [K8sPurger](https://github.com/yogeshkk/K8sPurger) hunts unused resources In kubernetes.
 - [k8snetlook](https://github.com/sarun87/k8snetlook) simple tool to help debug connetivity issues within a Pod or from a specific host in a live kubernetes cluster easily with a single command.
 - [kubeprober](https://github.com/erda-project/kubeprober) is a diagnostic tool designed for large-scale Kubernetes clusters.
+- [Datree](https://github.com/datreeio/datree) is a CLI tool to ensure K8s manifests and Helm charts follow best practices as well as your organization’s policies.
+- [goldilocks](https://github.com/FairwindsOps/goldilocks) is a utility that can help you identify a starting point for resource requests and limits.
 
 ## Container registry
 - [Harbor](https://goharbor.io/) is an open source registry that secures artifacts with policies and role-based access control, ensures images are scanned and free from vulnerabilities, and signs images as trusted.
