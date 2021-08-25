@@ -89,7 +89,8 @@ Pull requests with additional tools and projects are more than welcome!
 - [HAProxy Ingress controller](https://haproxy-ingress.github.io/) is a fast and reliable TCP and HTTP reverse proxy and load balancer. HAProxy Ingress carefully builds an optimized HAProxy configuration, which allows thousands of requests per second per proxy, despite the size of your cluster, with a very low latency.
 - [Istio](https://istio.io/) is an open platform for providing a uniform way to integrate microservices, manage traffic flow across microservices, enforce policies and aggregate telemetry data.
 - [Skipper](https://opensource.zalando.com/skipper/kubernetes/ingress-controller/) is the open-source ingress controller that powers 112 Kubernetes clusters at Zalando, which offers HTTP router and reverse proxy for service composition, designed as a library to build your custom proxy.
-- [Easegress](https://github.com/megaease/easegress) is a Cloud Native traffic orchestration system
+- [Easegress](https://github.com/megaease/easegress) is a Cloud Native traffic orchestration system.
+- [k8gb](https://github.com/k8gb-io/k8gb) is a cloud native Kubernetes Global Balancer.
 
 ## Monitoring, logging, observability and tracing
 - [Prometheus](https://prometheus.io/) is an open-source systems monitoring and alerting toolkit originally built at SoundCloud.
