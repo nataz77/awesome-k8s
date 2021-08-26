@@ -39,6 +39,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [kubeprober](https://github.com/erda-project/kubeprober) is a diagnostic tool designed for large-scale Kubernetes clusters.
 - [Datree](https://github.com/datreeio/datree) is a CLI tool to ensure K8s manifests and Helm charts follow best practices as well as your organization’s policies.
 - [goldilocks](https://github.com/FairwindsOps/goldilocks) is a utility that can help you identify a starting point for resource requests and limits.
+- [kubedoom](https://github.com/storax/kubedoom) kill pods inside your Kubernetes cluster by shooting them in Doom!
 
 ## Container registry
 - [Harbor](https://goharbor.io/) is an open source registry that secures artifacts with policies and role-based access control, ensures images are scanned and free from vulnerabilities, and signs images as trusted.
@@ -104,12 +105,13 @@ Pull requests with additional tools and projects are more than welcome!
 - [OpenSLO](https://github.com/OpenSLO/OpenSLO) OpenSLO specification for k8s
 - [SigNoz](https://github.com/SigNoz/signoz) helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc. 
 
-## Security
+## Security and Compliance
 - [Falco](https://falco.org/) is an open source runtime security tool that parses Linux system calls from the kernel at runtime, and asserts the stream against a powerful rules engine. It can be used for Kubernetes runtime security.
 - [CloudSploit](https://github.com/aquasecurity/cloudsploit) by Aqua is an open-source project designed to allow detection of security risks in cloud infrastructure accounts, including: Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), Oracle Cloud Infrastructure (OCI), and GitHub. These scripts are designed to return a series of potential misconfigurations and security risks.
 - [kube-hunter](https://github.com/aquasecurity/kube-hunter) is a tool that hunts for security weaknesses in Kubernetes clusters. The tool was developed to increase awareness and visibility for security issues in Kubernetes environments.
 - [kube-bench](https://github.com/aquasecurity/kube-bench) is an application that checks whether Kubernetes is deployed securely by running the checks documented in the CIS Kubernetes Benchmark.
-- [Popeye](https://github.com/derailed/popeye) is a utility that scans live Kubernetes cluster and reports potential issues with deployed resources and configurations. It sanitizes your cluster based on what's deployed and not what's sitting on disk. 
+- [Popeye](https://github.com/derailed/popeye) is a utility that scans live Kubernetes cluster and reports potential issues with deployed resources and configurations. It sanitizes your cluster based on what's deployed and not what's sitting on disk.
+- [Kubesec](https://github.com/controlplaneio/kubesec) Security risk analysis for Kubernetes resources
 
 ## CI/CD
 - [Tekton](https://tekton.dev/) is a powerful and flexible open-source framework for creating CI/CD systems, allowing developers to build, test, and deploy across cloud providers and on-premise systems.
