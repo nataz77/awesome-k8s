@@ -40,6 +40,7 @@ Pull requests with additional tools and projects are more than welcome!
 - [Datree](https://github.com/datreeio/datree) is a CLI tool to ensure K8s manifests and Helm charts follow best practices as well as your organization’s policies.
 - [goldilocks](https://github.com/FairwindsOps/goldilocks) is a utility that can help you identify a starting point for resource requests and limits.
 - [kubedoom](https://github.com/storax/kubedoom) kill pods inside your Kubernetes cluster by shooting them in Doom!
+- [kubeletctl](https://github.com/cyberark/kubeletctl) A client for kubelet
 
 ## Container registry
 - [Harbor](https://goharbor.io/) is an open source registry that secures artifacts with policies and role-based access control, ensures images are scanned and free from vulnerabilities, and signs images as trusted.
