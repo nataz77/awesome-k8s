@@ -50,6 +50,9 @@ Pull requests with additional tools and projects are more than welcome!
 - [Sinker](https://github.com/plexsystems/sinker) is an open source tool that syncs container images from one registry to another. This is useful in cases when you rely on images that exist in a public container registry, but need to pull from a private registry.
 - **(GCR Only)** [container-image-promoter](https://github.com/kubernetes-sigs/k8s-container-image-promoter) is a tool to promote Docker images from one registry to another, based on a declarative YAML manifest 
 
+## Container tooling
+- [cAdvisor](https://github.com/google/cadvisor) Analyzes resource usage and performance characteristics of running containers. 
+
 ## Storage management and orchestration
 - [Rook](https://rook.io/) is a cloud-native storage orchestrator platform to enable highly available, durable storage in your Kubernetes cluster.
 - [Ceph CSI](https://github.com/ceph/ceph-csi) is an interface between CSI enabled Container Orchestrator (CO) and Ceph cluster. It allows dynamically provisioning Ceph volumes and attaching them to workloads.
