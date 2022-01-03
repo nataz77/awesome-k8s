@@ -39,8 +39,13 @@ Pull requests with additional tools and projects are more than welcome!
 - [kubeprober](https://github.com/erda-project/kubeprober) is a diagnostic tool designed for large-scale Kubernetes clusters.
 - [Datree](https://github.com/datreeio/datree) is a CLI tool to ensure K8s manifests and Helm charts follow best practices as well as your organization’s policies.
 - [goldilocks](https://github.com/FairwindsOps/goldilocks) is a utility that can help you identify a starting point for resource requests and limits.
-- [kubedoom](https://github.com/storax/kubedoom) kill pods inside your Kubernetes cluster by shooting them in Doom!
 - [kubeletctl](https://github.com/cyberark/kubeletctl) A client for kubelet
+
+## Kubernetes tooling - chaos engineering
+- [KubeInvaders](https://github.com/lucky-sideburn/KubeInvaders): it's like Space Invaders but the aliens are pods or worker nodes.
+- [kubedoom](https://github.com/storax/kubedoom) allows you to kill pods inside your Kubernetes cluster by shooting them in Doom!
+- [ChaosKube](https://github.com/linki/chaoskube) is a tool that periodically kills random pods in your Kubernetes cluster to test resiliency.
+- [PowerfulSeal](https://github.com/powerfulseal/powerfulseal) injects failure into your Kubernetes clusters, so that you can detect problems as early as possible. It allows for writing scenarios describing complete chaos experiments.
 
 ## Container registry
 - [Harbor](https://goharbor.io/) is an open source registry that secures artifacts with policies and role-based access control, ensures images are scanned and free from vulnerabilities, and signs images as trusted.
@@ -135,10 +140,8 @@ Pull requests with additional tools and projects are more than welcome!
 - [OpenFaaS](https://www.openfaas.com/) makes it easy for developers to deploy event-driven functions and microservices to Kubernetes without repetitive, boiler-plate coding. Package your code or an existing binary in a Docker image to get a highly scalable endpoint with auto-scaling and metrics.
 
 ## Testing
-- [ChaosKube](https://github.com/linki/chaoskube) is a tool that periodically kills random pods in your Kubernetes cluster to test resiliency.
 - [Kboom (WIP)](https://github.com/mhausenblas/kboom) is a tool that allows you to create short-term load for scale testing and long-term load for soak testing. Supported load out of the box for scale testing are pods and custom resources via CRDs for soak testing is planned. (this is WIP)
 - [kube-advisor](https://github.com/Azure/kube-advisor) is a diagnostic tool for Kubernetes clusters. At the moment, it returns pods that are missing resource and request limits.
-- [PowerfulSeal](https://github.com/powerfulseal/powerfulseal) injects failure into your Kubernetes clusters, so that you can detect problems as early as possible. It allows for writing scenarios describing complete chaos experiments.
 - [k6](https://github.com/loadimpact/k6) is a developer-centric, free and open-source load testing tool built for making performance testing a productive and enjoyable experience.
 - [toxiproxy](https://github.com/Shopify/toxiproxy) is a framework for simulating network conditions. It's made specifically to work in testing, CI and development environments, supporting deterministic tampering with connections, but with support for randomized chaos and customization
 
