@@ -41,6 +41,12 @@ Pull requests with additional tools and projects are more than welcome!
 - [goldilocks](https://github.com/FairwindsOps/goldilocks) is a utility that can help you identify a starting point for resource requests and limits.
 - [kubeletctl](https://github.com/cyberark/kubeletctl) A client for kubelet
 
+## Kubernetes workload lifecycle
+- [Admiralty](https://admiralty.io/) is a system of Kubernetes controllers that intelligently schedules workloads across clusters.
+- [Descheduler](https://github.com/kubernetes-sigs/descheduler) for Kubernetes is used to rebalance clusters by evicting pods that can potentially be scheduled on better nodes.
+- [Kured](https://github.com/weaveworks/kured) is a Kubernetes daemonset that performs safe automatic node reboots when the need to do so is indicated by the package management system of the underlying OS.
+- [Another Scheduler](https://github.com/dignajar/another-scheduler) is a Kubernetes controller that automatically starts, stops, or restarts pods from a deployment at a specified time using a cron syntax.
+
 ## Kubernetes tooling - chaos engineering
 - [KubeInvaders](https://github.com/lucky-sideburn/KubeInvaders): it's like Space Invaders but the aliens are pods or worker nodes.
 - [kubedoom](https://github.com/storax/kubedoom) allows you to kill pods inside your Kubernetes cluster by shooting them in Doom!
@@ -150,7 +156,13 @@ Pull requests with additional tools and projects are more than welcome!
 - [Minikube](https://kubernetes.io/docs/setup/learning-environment/minikube/) is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a Virtual Machine (VM) on your laptop for users looking to try out Kubernetes or develop with it day-to-day.
 - [Multipass](https://multipass.run/) is a lightweight VM manager for Linux, Windows and macOS.
 - [Microk8s](https://microk8s.io/) is an upstream Kubernetes deployment that runs entirely on your workstation or edge device. Being a snap it runs all Kubernetes services natively (i.e. no virtual machines) while packing the entire set of libraries and binaries needed. 
-- **(Windows only)** [k8s Windows Dev Tools](https://github.com/kubernetes-sigs/sig-windows-dev-tools): a batteries included local development environment for Kubernetes on Windows. 
+- **(Windows only)** [k8s Windows Dev Tools](https://github.com/kubernetes-sigs/sig-windows-dev-tools): a batteries included local development environment for Kubernetes on Windows.
+- [Rancher Desktop](https://rancherdesktop.io/) is An open-source application that provides all the essentials to work with containers and Kubernetes on the desktop
+
+# Docker runtimes
+- [Rancher Desktop](https://rancherdesktop.io/) is an open-source application that provides all the essentials to work with containers and Kubernetes on the desktop
+- [Docker Desktop](https://www.docker.com/products/docker-desktop)
+- [Podman Desktop](https://podman.io/) simplifies container management, streamline Kubernetes workflows, and transition from local development to production with ease.
 
 # ETL Tooling
 - [Singer](https://www.singer.io/) Simple, Composable Open Source ETL
